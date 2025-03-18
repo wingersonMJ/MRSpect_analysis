@@ -1,5 +1,5 @@
 # Analysis of Magnetic Resonance Spectroscopy Data
-Wingerson, MJ
+Wingerson, MJ  
 mat.wingerson@gmail.com
 
 # Description 
