@@ -14,7 +14,7 @@ print('done')
 
 
 # --- data pre-processing ---
-file_path = 'C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\Data\\Moseley_MRSpect.xlsx'
+file_path = 'path'
 df = pd.read_excel(file_path)
 df.columns = df.columns.str.strip()
 
@@ -125,7 +125,7 @@ for i, var1 in enumerate(mrs1):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.3, bottom=0.08, left=0.05, wspace=0.15)
 plt.savefig(
-    "C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\figure_cr1.png", 
+    'path', 
     dpi=300, bbox_inches='tight'
 )
 plt.show()
@@ -224,7 +224,7 @@ for i, var in enumerate(mrs1):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.25, bottom=0.08, left=0.05)
 plt.savefig(
-    "C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\figure_cr2.png",
+    'path',
     dpi=300, bbox_inches='tight'
 )
 plt.show()
@@ -320,7 +320,7 @@ for i, var in enumerate(mrs1):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.20, bottom=0.08, left=0.05, wspace=0.20)
 plt.savefig(
-    "C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\figure_cr3.png",
+    'path',
     dpi=300, bbox_inches='tight'
 )
 plt.show()
@@ -415,7 +415,7 @@ for i, var in enumerate(mrs2):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.20, bottom=0.08, left=0.05, wspace=0.20)
 plt.savefig(
-    "C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\figure_cr4.png",
+    'path',
     dpi=300, bbox_inches='tight'
 )
 plt.show()
