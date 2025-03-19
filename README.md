@@ -36,7 +36,8 @@ Neurometabolite concentrations of Myo-Inositol, Choline, Glutamate-Glutamine, an
 Paired-samples t-test & Kernel Density Estimate plots
 
 ### Results
-Add figure  
+<img src="figs/figure1.png" alt="KDE plot" width="1000">  
+
 Add interpretation
 
 ---
@@ -54,7 +55,8 @@ Add interpretation
 Independent Samples t-tests and Violin Plots
 
 ### Results
-Add figure  
+<img src="figs/figure2.png" alt="violin plots" width="1000">  
+
 Add interpretation
 
 ---
@@ -72,7 +74,8 @@ Add interpretation
 Linear regression: steps/day = $beta$*NeurometaboliteVisit1 + $beta$*SymptomSeverity + intercept
 
 ### Results
-Add figure  
+<img src="figs/figure3.png" alt="scatter plot" width="1000">  
+
 Add interpretation  
 
 ---
@@ -90,7 +93,8 @@ Add interpretation
 Linear regression: NeurometaboliteVisit2 = $beta$*StepsPerDay + $beta$*TimeToVisit2 + intercept
 
 ### Results
-Add figure  
+<img src="figs/figure4.png" alt="scatter plot" width="1000">  
+
 Add interpretation  
 
 ---
