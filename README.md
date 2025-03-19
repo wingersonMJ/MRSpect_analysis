@@ -12,7 +12,7 @@ Transparency of source code and results for a manuscript submitted to [journal t
 # Overview
 
 ## Background:
-Engagement in aerobic exercise is the current standard of care treatment for concussion; patients who exercise at higher volumes post-injury have symptoms resolve quicker. However, unknown are the underlying pathophysiological mechanisms which are altered during post-concussion exercise that subsequently contribute to symptom resolution.  
+Engagement in aerobic exercise is the current standard of care treatment for concussion - patients who exercise at higher volumes post-injury have symptoms resolve quicker. However, unknown are the underlying pathophysiological mechanisms which are altered during post-concussion exercise that subsequently contribute to symptom resolution.  
 
 **Magnetic resonance spectroscopy (MRS)** is a neuroimaging approach that measures concentrations of various neurometabolites (chemicals) in the brain. For example, Myo-Inositol is often used as a marker of glial cell activity, increasing in concentrations when oxidative stress is present or neurons are damaged. Choline is essential for cell membrane support and is a precursor for neurotransmitter synthesis. Glutamate-Glutamine are excitatory neurotransmitters involved in executive functioning tasks and also serves as an important energy source for neurons when recovering from injury. And Glutathione is an anti-oxidant that responds to oxidative stress in damaged cells. In measuring these neurometabolites, researchers can gain insight into the chemical changes occurring post-injury and can more objectively quantify physiological responses to rehabilitation.  
 
