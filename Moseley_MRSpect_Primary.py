@@ -14,7 +14,7 @@ print('done')
 
 
 # --- data pre-processing ---
-file_path = 'C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\Data\\Moseley_MRSpect.xlsx'
+file_path = 'path'
 df = pd.read_excel(file_path)
 df.columns = df.columns.str.strip()
 
@@ -183,7 +183,7 @@ for i, var1 in enumerate(mrs1):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.3, bottom=0.08, left=0.05, wspace=0.15)
 plt.savefig(
-    "C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\figure1.png", 
+    'path', 
     dpi=300, bbox_inches='tight'
 )
 plt.show()
@@ -282,7 +282,7 @@ for i, var in enumerate(mrs1):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.25, bottom=0.08, left=0.05)
 plt.savefig(
-    "C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\figure2.png",
+    'path',
     dpi=300, bbox_inches='tight'
 )
 plt.show()
@@ -378,7 +378,7 @@ for i, var in enumerate(mrs1):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.20, bottom=0.08, left=0.05, wspace=0.20)
 plt.savefig(
-    "C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\figure3.png",
+    'path',
     dpi=300, bbox_inches='tight'
 )
 plt.show()
@@ -473,52 +473,7 @@ for i, var in enumerate(mrs2):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.20, bottom=0.08, left=0.05, wspace=0.20)
 plt.savefig(
-    "C:\\Users\\wingersm\\OneDrive - The University of Colorado Denver\\Desktop\\Python Projects\\3.0 Moseley MRSpect\\figure4.png",
+    'path',
     dpi=300, bbox_inches='tight'
 )
 plt.show()
-
-
-
-# --- Standardizing MRS variables if desired ---
-"""
-# Standardize vars across timepts 
-for var in mrs_vars_1:
-    combined_values = pd.concat([df[var], df[mrs_pairs[var]]], ignore_index=True)
-    combined_mean = combined_values.mean() # Combined, time1 and time2
-    combined_std = combined_values.std()
-    df[f'{var}_standardized'] = (df[var] - combined_mean) / combined_std
-    df[f'{mrs_pairs[var]}_standardized'] = (df[mrs_pairs[var]] - combined_mean) / combined_std
-# Check for Outliers?
-print(df[['Subject_ID', 'GSH1_standardized', 'Glu_Gln1_standardized', 'PCh_GPC1_standardized', 'mI1_standardized']].to_string())
-print(df[['Subject_ID', 'GSH2_standardized', 'Glu_Gln2_standardized', 'PCh_GPC2_standardized', 'mI2_standardized']].to_string())
-print(df[['Subject_ID', 'GSH1', 'Glu_Gln1', 'PCh_GPC1', 'mI1']].to_string())
-print(df[['Subject_ID', 'GSH2', 'Glu_Gln2', 'PCh_GPC2', 'mI2']].to_string())
-
-# Histograms
-fig, axes = plt.subplots(2, 2, figsize=(12, 10))
-axes = axes.flatten()
-for i, var in enumerate(mrs1):
-    data = df[var].copy()
-    
-    axes[i].hist(data, bins=10, alpha=0.7, label=f'{var}')
-    
-    axes[i].set_xlabel(f'Absolute {var} Concentrations (mM)')
-    axes[i].set_ylabel('Frequency')
-plt.tight_layout()
-plt.subplots_adjust(hspace=0.35, bottom=0.10)
-plt.show()
-
-fig, axes = plt.subplots(2, 2, figsize=(12, 10))
-axes = axes.flatten()
-for i, var in enumerate(mrs2):
-    data = df[var].copy()
-    
-    axes[i].hist(data, bins=10, alpha=0.7, label=f'{var}')
-    
-    axes[i].set_xlabel(f'Absolute {var} Concentrations (mM)')
-    axes[i].set_ylabel('Frequency')
-plt.tight_layout()
-plt.subplots_adjust(hspace=0.35, bottom=0.10)
-plt.show()
-"""
