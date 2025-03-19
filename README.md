@@ -49,7 +49,7 @@ No significant differences between neurometabolites Myo-Inositol, Choline, Gluta
 
 **Predictor:** Participant self-reported engagement in physical activity in the time between injury and Visit 1 (binary, yes vs no).  
 
-**Covariate:** Time to visit 1. This was selected as a covariate based on past research which found that neurometabolite exist in different concentrations across time after injury. 
+**Covariate:** Time to visit 1. This was selected as a covariate based on past research which found that neurometabolites exist in different concentrations across time after injury. 
 
 ### Analysis 
 Independent Samples t-tests and Violin Plots
@@ -71,7 +71,7 @@ No significant differences in neurometabolites Myo-Inositol, Choline, Glutamate-
 **Covariate:** Symptom severity at Visit 1. This was selected as a covariate based on past research which found that post-concussion exercise behaviors differ based on current symptom severity.  
 
 ### Analysis 
-Linear regression: steps/day = $beta$*NeurometaboliteVisit1 + $beta$*SymptomSeverity + intercept
+Linear regression: steps/day = $&beta;$*NeurometaboliteVisit1 + $&beta;$*SymptomSeverity + intercept
 
 ### Results
 <img src="figs/figure3.png" alt="scatter plot" width="1000">  
@@ -87,10 +87,10 @@ Neurometabolites Choline, Glutamate-Glutamine, and Glutathione, but not Myo-Inos
 
 **Predictor:** Actigraphy-measured steps per day taken by participants during a 2-week activity monitoring period after Visit 1.  
 
-**Covariate:** Time to Visit 2. Neurometabolite exist in different concentrations across time after injury.  
+**Covariate:** Time to Visit 2. Neurometabolites exist in different concentrations across time after injury.  
 
 ### Analysis 
-Linear regression: NeurometaboliteVisit2 = $beta$*StepsPerDay + $beta$*TimeToVisit2 + intercept
+Linear regression: NeurometaboliteVisit2 = $&beta;$*StepsPerDay + $&beta;$*TimeToVisit2 + intercept
 
 ### Results
 <img src="figs/figure4.png" alt="scatter plot" width="1000">  
@@ -103,9 +103,9 @@ The number of steps/day participants took during the 2-week monitoring period wa
 
 1. Concentrations of neurometabolites Choline, Glutamate-Glutamine, Glutathione, and Myo-Inositol did not significantly change between assessments within 21-days of injury and at the time of clearance to return-to-play.
 
-2. Though physical activity is the standard of care treatment for concusion symptoms, participants who reported being physically active prior to Visit 1 did not have altered neurometabolite concentrations compared to those who did not report being physically active.
+2. Though physical activity is the standard of care treatment for concussion symptoms, participants who reported being physically active prior to Visit 1 did not have altered neurometabolite concentrations compared to those who did not report being physically active.
 
-3. The ammount of physical activity participants performed during recovery was not associated with neurometabolite concentrations at Visit 2, around the time that participants were returning to sports.
+3. The amount of physical activity participants performed during recovery was not associated with neurometabolite concentrations at Visit 2, around the time that participants were returning to sports.
 
 4. However, concentrations of metabolites Choline, Glutamate-Glutamine, and Glutathione at Visit 1, were associated with the volume of physical activity that participants would perform in the subsequent 2-weeks, even after controlling for symptom severity.
 
