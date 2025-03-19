@@ -33,43 +33,65 @@ Our **secondary objective** was to investigate how exercise behaviors at various
 Neurometabolite concentrations of Myo-Inositol, Choline, Glutamate-Glutamine, and Glutathione at two timepoints in concussion recovery: initially within 21-days of injury when patients are still symptomatic, and again within 5-days of physician clearance to return-to-sport (i.e., no longer symptomatic).  
 
 ### Analysis
-Paired-samples t-test
+Paired-samples t-test & Kernel Density Estimate plots
 
 ### Results
-Fill in later 
+Add figure  
+Add interpretation
 
 ---
 
 ## Secondary objective (a)
 
 ### Variables 
+**Outcome:** Neurometabolite concentrations of Myo-Inositol, Choline, Glutamate-Glutamine, and Glutathione at Visit 1  
+
+**Predictor:** Participant self-reported engagement in physical activity in the time between injury and Visit 1 (binary, yes vs no).  
+
+**Covariate:** Time to visit 1. This was selected as a covariate based on past research which found that neurometabolite exist in different concentrations across time after injury. 
 
 ### Analysis 
+Independent Samples t-tests and Violin Plots
 
 ### Results
-Fill in later
+Add figure  
+Add interpretation
 
 ---
 
 ## Secondary objective (b)
 
 ### Variables 
+**Outcome:** Actigraphy-measured steps per day taken by participants during a 2-week activity monitoring period after Visit 1.  
+
+**Predictor:** Neurometabolite concentrations of Myo-Inositol, Choline, Glutamate-Glutamine, and Glutathione at Visit 1.  
+
+**Covariate:** Symptom severity at Visit 1. This was selected as a covariate based on past research which found that post-concussion exercise behaviors differ based on current symptom severity.  
 
 ### Analysis 
+Linear regression: steps/day = $beta$*NeurometaboliteVisit1 + $beta$*SymptomSeverity + intercept
 
 ### Results
-Fill in later
+Add figure  
+Add interpretation  
 
 ---
 
 ## Secondary objective (c)
 
 ### Variables 
+**Outcome:** Neurometabolite concentrations of Myo-Inositol, Choline, Glutamate-Glutamine, and Glutathione at Visit 2.  
+
+**Predictor:** Actigraphy-measured steps per day taken by participants during a 2-week activity monitoring period after Visit 1.  
+
+**Covariate:** Time to Visit 2. Neurometabolite exist in different concentrations across time after injury.  
 
 ### Analysis 
+Linear regression: NeurometaboliteVisit2 = $beta$*StepsPerDay + $beta$*TimeToVisit2 + intercept
 
 ### Results
-Fill in later
+Add figure  
+Add interpretation  
 
 ---
 
