@@ -13,7 +13,7 @@ from tableone import TableOne
 print('done')
 
 
-# --- data pre-processing ---
+# data pre-processing 
 file_path = 'path'
 df = pd.read_excel(file_path)
 df.columns = df.columns.str.strip()
@@ -24,7 +24,7 @@ df[categorical_cols] = df[categorical_cols].astype('category')
 df['fitbit'] = (df['steps'] > 0).astype(int).astype(str) # create fitbit variable
 
 
-# --- Define MRS variable subsets, labels, etc. ---
+# Define MRS variable subsets, labels, etc.
 mrs1 = ['GSH_Cr_PCr1', 'Glu_Gln_Cr_PCr1', 'PCh_GPC_Cr_PCr1', 'mI_Cr_PCr1']
 mrs2 = ['GSH_Cr_PCr2', 'Glu_Gln_Cr_PCr2', 'PCh_GPC_Cr_PCr2', 'mI_Cr_PCr2']
 
@@ -50,7 +50,7 @@ mrs_labels2 = {
 }
 
 
-# --- Aim 1: Comparing MRS at time 1 vs time 2 ---
+# Aim 1: Comparing MRS at time 1 vs time 2 
 """
 Analysis: Paired t-test & KDE plots for each MRS variable
 """
@@ -132,7 +132,7 @@ plt.show()
 
 
 
-# --- Aim 2: Physical activity and MRS at visit 1 ---
+# Aim 2: Physical activity and MRS at visit 1
 """
 Analysis:
 1. Linear regression for each MRS variable at Visit 1
@@ -231,7 +231,7 @@ plt.show()
 
 
 
-# --- Aim 3: MRS at Visit 1 predicting steps ---
+# Aim 3: MRS at Visit 1 predicting steps 
 """
 Analysis: Linear regression
 Outcome: Steps/day
@@ -327,7 +327,7 @@ plt.show()
 
 
 
-# --- Aim 4: Steps predicting MRS at visit 2 ---
+# Aim 4: Steps predicting MRS at visit 2
 """
 Analysis: Linear regression
 Outcome: MRS at visit 2
